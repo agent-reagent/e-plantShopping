@@ -79,6 +79,7 @@ body {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
+    background-color: lightgreen;
 }
 
 .product-title {
@@ -179,12 +180,16 @@ body {
     /* background-color: yellow; */
 }
 .plant_heading{
-    width: 400px;
+     display: flex;
+   align-items: center;
+   justify-content: center;
+    /* width: 400px; */
     text-align: center;
     margin: 20px;
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
+    background-color: green;
 
     
 }
